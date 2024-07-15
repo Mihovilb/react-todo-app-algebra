@@ -40,7 +40,7 @@ if (!newItem || !newItem.trim()) {
     return (<Form>
                 <InputGroup>
                 <FormControl onChange={this.handleChange} value={newItem} placeholder="Dodaj zadatak" autoFocus ref={this.ref}/>
-                    <Button type="submit" onClick={this.handleAddTodoClick}>Dodaj</Button>
+                    <Button type="submit" onClick={this.handleAddTodoClick} variant="outline-dark">Dodaj</Button>
                 </InputGroup>
             </Form>)
     }
